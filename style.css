@@ -153,12 +153,49 @@ li>img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#gamer-description, #purpus-description {
+
+#gamer-description,
+#purpus-description {
     margin-top: 20px;
 }
+
 #quotes {
     color: #534C64;
     font-size: 24px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+/* ============funny card style section========== */
+
+.funny-container {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.funny-title-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#funny-title-first {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-title-second {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
 }
