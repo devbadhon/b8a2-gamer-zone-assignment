@@ -199,3 +199,77 @@ li>img {
     font-size: 48px;
     font-weight: 700;
 }
+
+/* ==========Play Instantly style section========== */
+.instantly-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 600px;
+    background-size: contain;
+    margin: 0 auto;
+    background-image: url('images/Rectangle\ 55.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top right;
+}
+
+.instantly-container img {
+    width: 300px;
+    position: relative;
+    right: 408px;
+    bottom: -224px;
+    border: 2px solid rgba(255, 145, 0, 0.781);
+    border-radius: 5px;
+
+}
+
+.instantly-title {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.instantly-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ==========Online games style section========== */
+
+.Online-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 600px;
+    background-size: contain;
+    margin: 200px auto;
+    background-image: url('images/Rectangle\ 67.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, top left;
+}
+
+.Online-container img {
+    width: 300px;
+    position: relative;
+    left: 408px;
+    bottom: -224px;
+    border: 2px solid rgb(250, 110, 110);
+    border-radius: 5px;
+}
+
+.instantly-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.instantly-description {
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
