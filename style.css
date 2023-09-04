@@ -273,3 +273,55 @@ li>img {
     font-size: 18px;
     font-weight: 400;
 }
+
+
+/* ==========Careers section style============ */
+
+
+.careers-container {
+    margin: 0 auto;
+    color: #FFF;
+    width: 1920px;
+    height: 700px;
+    /* background-image: url('images/Vector\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top right; */
+    background-color: #ff4ca8;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.careers-description{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+
+}
+
+.list-item li {
+    list-style: none;
+}
+
+.careers-content {
+    display: flex;
+}
+
+.text-container {
+    margin-top: 200px;
+    margin-left:200px ;
+}
+
+.text-group2 {
+    text-align: right;
+}
