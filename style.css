@@ -240,7 +240,7 @@ li>img {
 
 /* ==========Play Instantly style section========== */
 
-.instantly-container {
+.insantly-conttainer {
     display: flex;
     gap: 30px;
     justify-content: space-between;
@@ -254,7 +254,7 @@ li>img {
     background-position: bottom right, top right;
 }
 
-.instantly-container img {
+.insantly-conttainer img {
     width: 300px;
     position: relative;
     right: 408px;
@@ -278,7 +278,7 @@ li>img {
 
 /* ==========Online games style section========== */
 
-.Online-container {
+.online-container {
     display: flex;
     gap: 30px;
     justify-content: space-between;
@@ -292,7 +292,7 @@ li>img {
     background-position: bottom left, top left;
 }
 
-.Online-container img {
+.online-container img {
     width: 300px;
     position: relative;
     left: 408px;
@@ -301,12 +301,12 @@ li>img {
     border-radius: 5px;
 }
 
-.instantly-title {
+.online-title {
     text-align: left;
     margin-bottom: 20px;
 }
 
-.instantly-description {
+.online-description {
     color: #534C64;
     text-align: left;
     font-size: 18px;
@@ -320,7 +320,7 @@ li>img {
 .careers-container {
     margin: 0 auto;
     color: #FFF;
-    width: 1920px;
+    width: 100%;
     height: 700px;
     background-color: #ff4ca8;
 }
@@ -438,4 +438,205 @@ footer>ul li {
     color: white;
     text-align: center;
     margin-top: 30px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* =============responsive small device========== */
+@media screen and (max-width:576px){
+
+nav{
+    padding: 0;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    box-shadow: none;
+    flex-direction: column;
+
+}
+nav > ul{
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.nav-follow{
+    gap: 16px;
+    padding: 10px;
+}
+
+/* ============================================= */
+
+.banner{
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner div > img{
+    width:80%;
+    margin: 0 39px;
+}
+
+/* ============================================== */
+
+.gamer-container{
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.gamer-container img{
+    width: 100%;
+}
+.gamer-content, .section-title{
+    text-align: center;
+}
+
+/* ============================================= */
+.funny-container{
+    width: 90%;
+}
+#funny-title-first{
+font-size: 40px;
+}
+.funny-title-second{
+font-size: 40px;
+}
+
+.card-content{
+    flex-direction: column;
+}
+.image-container{
+    position: relative;
+    left: 126px;
+    bottom: 772px;
+}
+
+/* ====================================== */
+
+.insantly-conttainer{
+    flex-direction: column;
+    text-align: center;
+    width: 82%;
+    height: 659px;
+    margin-left: 60px;
+}
+.insantly-conttainer img{
+    width: 50%;
+    position: relative;
+    left: -132px;
+    bottom: -66px;
+
+}
+.instantly-title, .instantly-description{
+    text-align: center;
+}
+
+/* ================================================ */
+
+.online-container{
+    flex-direction: column-reverse;
+    width: 82%;
+    height: 584px;
+    gap: 141px;
+    margin-right: 60px;
+}
+
+.online-container img{
+    width: 50%;
+    position: relative;
+    left: 130px;
+    bottom: -74px;
+}
+
+.online-container div{
+    text-align: center;
+}
+
+.online-title, .online-description{
+    text-align: center;
+
+}
+
+/* ================================== */
+.careers-container{
+    width: 100%;
+    height: auto;
+}
+.careers-content{
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.careers-content img{
+    width: 385px;
+    margin-top: 40px;
+}
+.text-container{
+    margin: 0 auto;
+}
+.careers-title{
+    text-align: center;
+}
+
+/* =========================================== */
+
+.games-category{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.category-container img{
+width: 20px;
+}
+.category-container{
+    width: auto;
+    font-size: 10px;
+}
+
+.category-btn div{
+    width: 108px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* =============responsive medium device========== */
+
+@media screen and (min-width:577px) and (max-width:960px){
+
+
+
+
+
+
+
+
 }
